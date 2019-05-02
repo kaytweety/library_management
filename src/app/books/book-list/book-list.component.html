@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <thead>
+    <th>Name</th>
+    <th>Author</th>
+    <th>ISBN</th>
+    <th>No. Copies</th>
+    <th>Prices</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let book of list">
+      <td (click)="onEdit(book)">{{book.name}}</td>
+      <td (click)="onEdit(book)">{{book.author}}</td>
+      <td (click)="onEdit(book)">{{book.isbn}}</td>
+      <td (click)="onEdit(book)">{{book.no_copies}}</td>
+      <td (click)="onEdit(book)">{{book.price}}</td>
+      <td><a class="btn text-danger" (click)="onDelete(book.id)"><i class="fa fa-trash"></i></a></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+mat-card {
+    max-width:450px;
+    text-align:center;
+    margin:auto;
+    margin-top:160px;
+    border:2px solid; 
+}
+.mat-form-field {
+    padding-left: 120px;
+}
+.mat-card-title{
+    color: #22509b;
+    font-size: 24px;
+}

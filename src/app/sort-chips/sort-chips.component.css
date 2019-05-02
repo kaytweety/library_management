@@ -1,0 +1,19 @@
+mat-card {
+    max-width:450px;
+    text-align:center;
+    margin:auto;
+    margin-top:112px;
+    border:2px solid; 
+}
+.mat-form-field {
+    padding-left: 35px;
+    padding-right: 30px;
+}
+.mat-card-title{
+    color: #22509b;
+    font-size: 24px;
+}
+.signUpBtn{
+    text-align: right;
+    padding-right: 30px;
+}
